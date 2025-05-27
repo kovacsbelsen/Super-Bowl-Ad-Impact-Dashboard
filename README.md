@@ -9,12 +9,12 @@ Source	Type	Method	Data Includes
 YouTube	Dynamic API	YouTube Data API	View count, likes, comments, upload dates
 Yahoo Finance	API	yfinance wrapper	Historical stock prices, metadata, financials
 Polygon.io	API	REST (Python)	Public company stock history and metrics
-Super Bowl Ad Metadata	Custom Scrape	BeautifulSoup	Titles, companies, brands, links (2005–2024)
+Super Bowl Metadata	Custom Scrape	BeautifulSoup	Titles, companies, brands, links (2005–2024)
 Manual CSV Uploads	Static	Snowflake Stage	Backup for validation and consistency checks
 
 ✅ APIs were used for all live metrics.
 
-✅ Web scraping was implemented to build an initial dataset of Super Bowl ads over the last decade.
+✅ Web scraping was implemented to build an initial dataset of Super Bowl ads.
 
 ✅ Final datasets were stored and processed in Snowflake, with transformations written in SQL and Python.
 
