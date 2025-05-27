@@ -1,7 +1,7 @@
 
 # 🏈 Super Bowl Ad Impact Dashboard  
 _A Capstone Project for Data Engineering_
-
+[DASHBOARD](https://app.snowflake.com/lywbbpj/odb66944/#/streamlit-apps/DATAEXPERT_STUDENT.BENCEKOVACS.EL98HTPA_K2BNB0U?ref=snowsight_shared)
 ---
 
 ## 📖 Introduction
@@ -48,8 +48,6 @@ This project investigates how **Super Bowl advertisements** influence **public c
   - 🔁 Related tickers performance
 - Financial and business metadata
 - Ad engagement metrics (views, likes, comments)
-
-[DASHBOARD](https://app.snowflake.com/lywbbpj/odb66944/#/streamlit-apps/DATAEXPERT_STUDENT.BENCEKOVACS.EL98HTPA_K2BNB0U?ref=snowsight_shared)
 
 ### Tab 2: 📈 Global Trends
 - Yearly ad trends  
