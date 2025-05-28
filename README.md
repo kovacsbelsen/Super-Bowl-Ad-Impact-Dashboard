@@ -61,9 +61,9 @@ This project investigates how **Super Bowl advertisements** influence **public c
 ## 🧪 Data Engineering Steps
 
 ### 1. **Scraping & API Integration**
-- Scraped 20 years of Super Bowl ad metadata (title, brand, company, year)
-- Pulled ad video metrics from the YouTube API
-- Fetched stock price and metadata from Yahoo and Polygon APIs
+- Scraped and enriched 10 years of Super Bowl ad metadata (title, brand, company, year)
+- Pulled ad video metrics from the YouTube API where available
+- Fetched stock price and company metadata from Yahoo and Polygon APIs
 
 ### 2. **Staging & Cleaning**
 - Loaded raw data into Snowflake
@@ -75,13 +75,13 @@ This project investigates how **Super Bowl advertisements** influence **public c
 - Designed a **star schema** with:
   - `superbowl_ads_cleaned` as fact table
   - Financial metadata, stock prices, and industry dimensions
-- Built data dictionary and ERD diagrams
 - Deployed analytical dashboard using Streamlit
 
 ### 4. **Quality Checks**
 - Referential integrity on ticker joins  
 - Yearly ad count sanity checks  
-- NULL checks and value ranges for numerical columns  
+- NULL checks and value ranges for numerical columns
+- Handle all NaN values  
 
 ---
 
@@ -101,8 +101,8 @@ This project investigates how **Super Bowl advertisements** influence **public c
 
 | Metric                     | Value         |
 |---------------------------|---------------|
-| Total Ads Analyzed        | 400+          |
-| Unique Tickers            | 100+          |
+| Total Ads Analyzed        | 670+          |
+| Unique Tickers            | 700+          |
 | Distinct Industries       | 20+           |
 | YouTube Views Aggregated  | 1B+           |
 | Snowflake Tables          | 7             |
